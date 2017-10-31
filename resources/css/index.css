@@ -16,6 +16,7 @@ header {
   top: 0px;
   left: 0px;
   border-bottom: 1px solid seashell;
+  z-index: 10;
 }
 
 .nav {
@@ -28,8 +29,59 @@ a {
   padding: 10px;
 }
 
+h4 {
+  margin-top: 10px;
+}
+
 .logo img{
   height: 50px;
   margin-left: 10px;
   padding-right: 80px;
+}
+
+body {
+  position: relative;
+  width: 100%;
+  top: 71px;
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.header {
+  text-align: center;
+  background-color: black;
+  width: 100%;
+}
+
+.offer img {
+  width: 300px;
+  height: 200px;
+  padding: 0px 15px 0px 15px;
+}
+
+.tea {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 1000px;
+  margin-left: 100px;
+}
+
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.sort {
+  text-align: center;
 }
