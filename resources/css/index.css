@@ -1,6 +1,6 @@
 html {
   font-family: Helvetica;
-  background-color: black;
+  font-size: 22px;
   color: seashell;
   opacity: 0.9;
 }
@@ -9,6 +9,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: black;
   width: 100%;
   height: 69px;
   font-size: 22px;
@@ -16,7 +17,7 @@ header {
   top: 0px;
   left: 0px;
   border-bottom: 1px solid seashell;
-  z-index: 10;
+  z-index: 5;
 }
 
 .nav {
@@ -40,9 +41,12 @@ h4 {
 }
 
 body {
+  font-size: 22px;
   position: relative;
-  width: 100%;
-  top: 71px;
+  top: 70px;
+  width: 1200px;
+  margin: auto;
+  background-color: black;
 }
 
 .mission {
@@ -60,7 +64,7 @@ body {
   width: 100%;
 }
 
-.offer img {
+.menu img {
   width: 300px;
   height: 200px;
   padding: 0px 15px 0px 15px;
@@ -75,7 +79,7 @@ body {
   margin-left: 100px;
 }
 
-.offer {
+.menu {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -84,4 +88,41 @@ body {
 
 .sort {
   text-align: center;
+}
+
+.locations {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: flex-start;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 570px;
+  width: 1200px;
+}
+
+.location-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.location-header h2 {
+  margin-bottom: 15px;
+}
+
+.location-box {
+  width: 300px;
+  text-align: center;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+}
+
+.locations-together {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
