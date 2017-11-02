@@ -126,3 +126,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
 }
+
+.contacts {
+  text-align: center;
+}
