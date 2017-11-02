@@ -129,4 +129,11 @@ body {
 
 .contacts {
   text-align: center;
+  height: 200px;
+}
+
+footer {
+  margin-left: 20px;
+  text-align: left;
+  width: 100%;
 }
