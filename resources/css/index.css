@@ -25,25 +25,27 @@ header {
   flex-shrink: 0;
 }
 
-a {
-  color: seashell;
+h2, h4, a, p {
+  margin: 0px;
   padding: 10px;
-}
-
-h4 {
-  margin-top: 10px;
+  color: seashell;
 }
 
 .logo img{
   height: 50px;
   margin-left: 10px;
-  padding-right: 80px;
+  padding-right: 350px;
 }
 
 body {
+  background-color: black;
+  margin-left: 0px;
+}
+
+.main {
   font-size: 22px;
   position: relative;
-  top: 70px;
+  top: 62px;
   width: 1200px;
   margin: auto;
   background-color: black;
@@ -62,6 +64,7 @@ body {
   text-align: center;
   background-color: black;
   width: 100%;
+  /*padding-bottom: 15px;*/
 }
 
 .menu img {
@@ -77,6 +80,7 @@ body {
   justify-content: center;
   width: 1000px;
   margin-left: 100px;
+  padding: 70px 0px;
 }
 
 .menu {
@@ -88,6 +92,7 @@ body {
 
 .sort {
   text-align: center;
+  padding: 10px 0px;
 }
 
 .locations {
@@ -97,7 +102,8 @@ body {
   justify-content: center;
   align-content: flex-start;
   background-image: url("../images/img-locations-background.jpg");
-  height: 570px;
+  padding-top: 70px;
+  height: 500px;
   width: 1200px;
 }
 
@@ -106,7 +112,7 @@ body {
   align-items: flex-start;
   justify-content: center;
   width: 100%;
-  margin-top: 40px;
+  /*margin-top: 40px;*/
 }
 
 .location-header h2 {
@@ -133,7 +139,9 @@ body {
 }
 
 footer {
+  position: relative;
   margin-left: 20px;
+  padding-top: 50px;
   text-align: left;
   width: 100%;
 }
